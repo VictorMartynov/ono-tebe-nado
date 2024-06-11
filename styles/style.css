@@ -53,16 +53,11 @@ main {
     padding-left: 1.5px;
 }
 
-.header__address {
+.address {
     font-style: inherit;
     padding-left: 192px;
     margin-left: -0.5px;
     margin-top: -1px;
-
-}
-
-.address {
-    font-style: inherit;
 }
 
 .address__address-text {
