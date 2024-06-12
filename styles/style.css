@@ -304,15 +304,30 @@ main {
 }
 
 .footer {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 50px 90px;
     display: flex;
     justify-content: space-between;
-    padding: 182px 50px 90px;
-    margin-top: -26px;
+    margin-top: 155px;
+}
+
+.footer__address {
+    padding-right: 15.5%;
+}
+
+.footer__menu {
+    flex: 0 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-style: inherit;
 }
 
 .footer__menu-list {
     text-align: center;
     list-style: none;
+    margin-left: 30px;
 }
 
 .footer__menu-link {
@@ -329,6 +344,7 @@ main {
     display: flex;
     gap: 48px;
     list-style: none;
+    margin-left: 190px;
 }
 
 .footer__social-icon {
