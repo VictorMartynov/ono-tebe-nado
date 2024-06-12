@@ -53,11 +53,15 @@ main {
     padding-left: 1.5px;
 }
 
-.address {
+.header .address {
     font-style: inherit;
     padding-left: 192px;
-    margin-left: -0.5px;
-    margin-top: -1px;
+    
+}
+
+.footer .address {
+    font-style: inherit;
+    padding-right: 155px;
 }
 
 .address__address-text {
@@ -310,10 +314,6 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 155px;
-}
-
-.footer__address {
-    padding-right: 15.5%;
 }
 
 .footer__menu {
